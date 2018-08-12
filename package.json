@@ -1,6 +1,6 @@
 {
   "name": "snitchy-loader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "DataLayer push with `.xlsx` made easy",
   "homepage": "https://github.com/epicagency/snitchy-loader",
   "main": "src/loader.js",

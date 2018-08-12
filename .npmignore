@@ -1,0 +1,9 @@
+### Custom ###
+/__mocks__
+/__tests__
+/.babelrc
+/.editorconfig
+/.eslintrc.json
+/.travis.yml
+/jest.config.js
+/webpack.config.js

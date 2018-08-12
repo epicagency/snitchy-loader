@@ -1,0 +1,51 @@
+{
+  "name": "snitchy-loader",
+  "version": "0.0.0",
+  "description": "DataLayer push with `.xlsx` made easy",
+  "homepage": "https://github.com/epicagency/snitchy-loader",
+  "main": "src/loader.js",
+  "scripts": {
+    "lint": "eslint src/** || exit 0",
+    "test": "npm run lint && jest --coverage || exit 0",
+    "prepare": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:epicagency/snitchy-loader.git"
+  },
+  "author": {
+    "name": "Thierry Michel",
+    "email": "thierry@epic.net",
+    "url": "http://epic.net"
+  },
+  "keywords": [
+    "epic",
+    "snitchy",
+    "gtm",
+    "google",
+    "tag",
+    "manager",
+    "datalayer",
+    "analytics",
+    "tracking",
+    "kpi",
+    "webpack",
+    "loader"
+  ],
+  "bugs": {
+    "url": "https://github.com/epicagency/snitchy-loader/issues"
+  },
+  "license": "SEE LICENSE IN UNLICENSE",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "coveralls": "^3.0.2",
+    "jest": "^23.5.0",
+    "webpack": "^4.16.5"
+  },
+  "dependencies": {
+    "xlsx": "^0.13.3"
+  }
+}

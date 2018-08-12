@@ -7,6 +7,7 @@
   "scripts": {
     "lint": "eslint src/** || exit 0",
     "test": "npm run lint && jest --coverage || exit 0",
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "prepare": "npm run test"
   },
   "repository": {

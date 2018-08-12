@@ -1,6 +1,6 @@
 ### Custom ###
-/__mocks__
-/__tests__
+/test
+/src
 /.babelrc
 /.editorconfig
 /.eslintrc.json
